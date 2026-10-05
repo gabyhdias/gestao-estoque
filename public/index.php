@@ -14,12 +14,12 @@ $produtos = $stmt->fetchAll();
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
         table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-        th { background-color: #f4f4f4; }
+        th, td { border: 1px solid #f3efef; padding: 8px; text-align: left; }
+        th { background-color: #f5e9e9; }
         .btn { padding: 5px 10px; text-decoration: none; border-radius: 3px; }
-        .btn-add { background-color: #28a745; color: #fff; }
-        .btn-edit { background-color: #ffc107; color: #000; }
-        .btn-delete { background-color: #dc3545; color: #fff; }
+        .btn-add { background-color: #26eb54; color: #fffafa; }
+        .btn-edit { background-color: #ffd147; color: #020101; }
+        .btn-delete { background-color: #d40015; color: #fffbfb; }
     </style>
 </head>
 <body>
