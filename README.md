@@ -1,6 +1,6 @@
 # Gestão de Estoque — Mercado
 
 ## Objetivo
-Sistema desenvolvido para o gerenciamento de produtos em estoque para estabelecimentos comerciais (mercados). A aplicação permite o controle total de itens (CRUD), garantindo a integridade dos dados e proteção contra falhas de segurança através do uso de Prepared Statements.
+Este é um projeto simples de CRUD (Create, Read, Update, Delete) desenvolvido em PHP para gerenciar o estoque de produtos de um mercado. O sistema foi projetado para rodar em um ambiente local (localhost) utilizando o XAMPP.
 
 
