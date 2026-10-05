@@ -11,5 +11,3 @@ if ($id) {
 header('Location: index.php');
 exit;
 
-<?php
-require_once '../config/database.php';
