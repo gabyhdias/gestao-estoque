@@ -49,4 +49,27 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <p style="color: red;"><?= $erro ?></p>
     <?php endif; ?>
 
-   
+    <form method="POST">
+        <label>Nome:*</label><br>
+        <input type="text" name="nome" required><br><br>
+
+        <label>Categoria:*</label><br>
+        <input type="text" name="categoria" required><br><br>
+
+        <label>Descrição:</label><br>
+        <textarea name="descricao"></textarea><br><br>
+
+        <label>Preço (R$):*</label><br>
+        <input type="number" step="0.01" name="preco" required><br><br>
+
+        <label>Quantidade em Estoque:*</label><br>
+        <input type="number" name="quantidade" required><br><br>
+
+        <label>Data de Validade:</label><br>
+        <input type="date" name="data_validade"><br><br>
+
+        <button type="submit">Salvar</button>
+        <a href="index.php">Cancelar</a>
+    </form>
+</body>
+</html>
