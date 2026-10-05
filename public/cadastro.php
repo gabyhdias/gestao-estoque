@@ -36,3 +36,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar Produto</title>
+</head>
+<body>
+    <h1>Novo Produto</h1>
+    <?php if ($erro): ?>
+        <p style="color: red;"><?= $erro ?></p>
+    <?php endif; ?>
+
+   
